@@ -1,0 +1,226 @@
+/*样式初始化*/
+
+body,
+div,
+h1,
+ul,
+li,
+ol,
+p,
+a,
+img,
+header,
+section,
+input,
+h2,
+h3,
+h4,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    /* 去掉下划线 */
+    color: #000;
+}
+
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+li, ol {
+    /* 把浏览器默认样式去掉 */
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 0.12rem;
+    font-weight: normal;
+    /* 字体加粗 */
+}
+
+html {
+    font-size: 50px
+}
+
+
+/* 媒体查询   */
+
+
+/* 响应式 */
+
+
+/* 诞生新单位  rem */
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.67px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 64px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 85.33px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+
+/* rem   相对单位  作用就是等比例放大缩小 */
+
+body {
+    font: 12px/1.5 "微软雅黑";
+    box-sizing: border-box;
+    background: #efeef4;
+}
+
+
+/* 组件       */
+
+.mb30 {
+    margin-bottom: 0.3rem;
+}
+
+.bor-b {
+    border-bottom: 0.01rem solid #dadada;
+}
+
+
+/* 清除浮动 */
+
+.fix:after,
+.fix:before {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both
+}
+
+
+/* 微信横条 */
+
+.item {
+    padding: 0 0.3rem;
+    border: 0.01rem solid #dadada;
+    font-size: 0.3rem;
+    background: #000；
+}
+
+.we-icon {
+    display: inline-block;
+    margin-right: 0.35rem;
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url(../img/iii.png) no-repeat;
+    background-size: 400%;
+    margin-top: 0.2rem;
+}
+
+.item-list {
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+
+.we-icon2 {
+    background-position: -0.4rem 0;
+}
+
+.we-icon3 {
+    background-position: -0.9rem 0;
+}
+
+.we-icon6 {
+    background-position: -1.36rem 0;
+}
+
+.we-icon7 {
+    background-position: -0.4rem -0.48rem;
+}
+
+.we-icon8 {
+    background-position: -0.9rem -0.48rem;
+}
+
+.we-icon9 {
+    background-position: 0 -0.5rem;
+}
+
+.foot {
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    height: 0.98rem;
+    border-top: 0.01rem solid #dadada;
+
+     background:#fff; 
+}
+
+.foot li {
+    float: left;
+    width:25%;
+    text-align:center;
+}
+.foot div{
+    width:100%;
+    height: 0.62rem;
+    padding:0.67rem;
+    /* background-color:red; */
+}
+.foot p{
+    font-size: 0.4rem;
+    line-height:0.9rem;
+    
+}
+.foot active{
+    color: #31ad37;
+}
+.footbox{
+    height: 4rem;
+}

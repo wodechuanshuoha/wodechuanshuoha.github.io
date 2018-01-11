@@ -1,0 +1,15 @@
+/* 发现页面 */
+/* 先找位置   浮动   定位
+然后看状态 块 行内行内快 */
+/* margin  padding border   */
+/* 里面元素 位置 */
+/* 字体大小 颜色 背景 */
+.head{
+    height:0.9rem;
+    text-align:center;
+    /* 文字水平居中 */
+    line-height: 0.9rem;
+    font-size:0.38rem;
+    color:#fff;
+    background-color:#343339;
+}
